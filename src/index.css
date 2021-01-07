@@ -53,12 +53,14 @@ main {
   font-family: "cursive";
 }
 .login {
-  width: 30rem;
+  border: 1px solid rgb(105, 100, 100);
+
   margin-top: 10rem;
   margin-left: auto;
   margin-right: auto;
   color: rgb(243, 240, 240);
-
+  box-shadow: 5px 10px rgb(80, 77, 77);
+  border-radius: 10px;
   padding: 15px;
 }
 .footer {

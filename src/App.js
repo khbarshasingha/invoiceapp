@@ -10,7 +10,7 @@ import { Footer } from "./Components/Footer";
 function App() {
   return (
     <Router>
-      <header>
+      <header className="sticky">
         <Header />
       </header>
       <main>
