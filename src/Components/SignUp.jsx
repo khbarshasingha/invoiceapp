@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 export const SignUp = () => {
   return (
-    <Row className="parentstyle">
+    <Row className="parentformstyle">
       <Col sm={3} md={4} lg={6}>
         <Form style={{ padding: "25px" }}>
           <Form.Group controlId="formGridName">
@@ -72,13 +72,12 @@ export const SignUp = () => {
           <br />
           <hr />
           <Link to="/login">
-            <Button>Log In</Button>
+            <button type="button" className="btn btn-primary btn-lg">
+              Log In
+            </button>
           </Link>
         </div>
       </Col>
     </Row>
   );
 };
-// <div>
-
-// </div>

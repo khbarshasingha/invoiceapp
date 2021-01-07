@@ -1,19 +1,14 @@
 import React from "react";
-import { Table } from "react-bootstrap";
+import { Table, Container } from "react-bootstrap";
 import { Data } from "../Data";
 import { invoice, Invoice } from "../Components/Invoice";
 import { auto } from "@popperjs/core";
 
 export const HomeScreen = () => {
   return (
-    <div>
-      <Table
-        striped
-        hover
-        className="tablecss text-info"
-        variant="dark"
-        width="50rem"
-      >
+    <Container className="tablecss">
+      {" "}
+      <Table striped hover className="text-info" variant="dark" width="50rem">
         <thead>
           <tr>
             <th>#</th>
@@ -31,6 +26,7 @@ export const HomeScreen = () => {
           {Data.map(data => {
             return (
               <Invoice
+                key={data.id}
                 name={data.name}
                 id={data.id}
                 dis={data.discount}
@@ -43,6 +39,6 @@ export const HomeScreen = () => {
           })}
         </tbody>
       </Table>
-    </div>
+    </Container>
   );
 };

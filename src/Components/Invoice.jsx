@@ -12,14 +12,14 @@ export const Invoice = ({ id, name, desc, unit, quan, dis, tax, price }) => {
       <td>{quan}</td>
       <td>{unit}</td>
       <td>{tax}</td>
-      <td>₹ {price}</td>
+      <td>₹{price}</td>
       <td>
-        <Button variant="warning">
-          <i class="fas fa-edit"></i>
+        <Button type="button" className="btn btn-warning">
+          <i className="fas fa-edit"> </i>
         </Button>
         <br />
-        <Button variant="danger">
-          <i class="fas fa-trash"></i>
+        <Button type="button" className="btn btn-danger">
+          <i className="fas fa-trash"></i>
         </Button>
       </td>
     </tr>

@@ -3,7 +3,7 @@ import { Row, Container, Col } from "react-bootstrap";
 
 export const Footer = () => {
   return (
-    <footer className="text-warning">
+    <footer className="text-warning footer">
       <Row className="footer navbar navbar-expand-lg navbar-dark bg-primary">
         <Col className="text-center py-3 ">Copyright &copy; Invoice</Col>
         <Col className="text-center py-3 ">
@@ -15,9 +15,9 @@ export const Footer = () => {
         <Col>
           Connect us:
           <br />
-          <i class="fab fa-facebook"></i>{" "}
-          <i class="fab fa-instagram-square"></i>{" "}
-          <i class="fab fa-twitter-square"></i>
+          <i className="fab fa-facebook"></i>{" "}
+          <i className="fab fa-instagram-square"></i>{" "}
+          <i className="fab fa-twitter-square"></i>
         </Col>
       </Row>
     </footer>

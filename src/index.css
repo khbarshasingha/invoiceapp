@@ -19,7 +19,7 @@ code {
 main {
   min-height: 100vh;
 }
-.parentstyle {
+.parentformstyle {
   margin-top: 7rem;
   margin-bottom: 4rem;
   background-image: url("cardbg2.jpg");
@@ -34,7 +34,9 @@ main {
 .tablecss {
   margin-top: 10rem;
   overflow: auto;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  height: 30rem;
 }
 .sticky {
   position: fixed;
@@ -61,4 +63,9 @@ main {
 }
 .footer {
   font-size: 1rem;
+}
+@media only screen and (max-device-width: 480px) {
+  .footer {
+    width: 100%;
+  }
 }

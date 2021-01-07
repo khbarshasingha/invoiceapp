@@ -5,24 +5,22 @@ import { LinkContainer } from "react-router-bootstrap";
 
 export const Header = () => {
   return (
-    <Navbar
-      className="navbar navbar-expand-lg navbar-dark bg-primary "
-      collapseOnSelect
-    >
-      <Container>
-        <LinkContainer to="/invoice">
-          <Navbar.Brand>Invoice</Navbar.Brand>
-        </LinkContainer>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <LinkContainer to="/invoice">
+        <Navbar.Brand>Invoice</Navbar.Brand>
+      </LinkContainer>
 
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          <LinkContainer to="/signup">
+          <LinkContainer to="/">
             <Nav.Link>Sign Up</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/login">
-            <Nav.Link>Sign In</Nav.Link>
+            <Nav.Link>LogIn</Nav.Link>
           </LinkContainer>
         </Nav>
-      </Container>
+      </Navbar.Collapse>
     </Navbar>
   );
 };
