@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Table, Container, Button } from "react-bootstrap";
+
+import { Button } from "react-bootstrap";
 
 export const Invoice = ({ id, name, desc, unit, quan, dis, tax, price }) => {
   return (

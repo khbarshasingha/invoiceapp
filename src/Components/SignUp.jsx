@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  Form,
-  Row,
-  Col,
-  Button,
-  FormControl,
-  FormGroup,
-  FormLabel,
-  Container
-} from "react-bootstrap";
+import { Form, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export const SignUp = () => {

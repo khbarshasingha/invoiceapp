@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Header } from "./Components/Header";
@@ -10,7 +9,7 @@ import { Footer } from "./Components/Footer";
 function App() {
   return (
     <Router>
-      <header className="sticky">
+      <header className="sticky text-warning">
         <Header />
       </header>
       <main>
@@ -22,8 +21,9 @@ function App() {
           <Route path="/login" component={Login} exact />
         </Container>
       </main>
-
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </Router>
   );
 }

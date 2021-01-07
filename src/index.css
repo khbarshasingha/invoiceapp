@@ -59,15 +59,15 @@ main {
   margin-left: auto;
   margin-right: auto;
   color: rgb(243, 240, 240);
-  box-shadow: 5px 10px rgb(80, 77, 77);
+
   border-radius: 10px;
   padding: 15px;
 }
-.footer {
-  font-size: 1rem;
+i:hover {
+  font-size: 2rem;
 }
-@media only screen and (max-device-width: 480px) {
+/* @media only screen and (max-device-width: 480px) {
   .footer {
     width: 100%;
   }
-}
+} */

@@ -1,8 +1,7 @@
 import React from "react";
 import { Table, Container } from "react-bootstrap";
 import { Data } from "../Data";
-import { invoice, Invoice } from "../Components/Invoice";
-import { auto } from "@popperjs/core";
+import { Invoice } from "../Components/Invoice";
 
 export const HomeScreen = () => {
   return (
