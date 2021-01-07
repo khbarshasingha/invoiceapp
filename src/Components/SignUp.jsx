@@ -42,7 +42,11 @@ export const SignUp = () => {
               <Form.Label>State</Form.Label>
               <Form.Control as="select" defaultValue="Choose...">
                 <option>Choose...</option>
-                <option>...</option>
+                <option>Assam</option>
+                <option>Kerela</option>
+                <option>UttarPradesh</option>
+                <option>Maharashtra</option>
+                <option>TamilNadu</option>
               </Form.Control>
             </Form.Group>
 
